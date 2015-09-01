@@ -15,10 +15,15 @@
   <body>
     <div id="main">
       <h1>chatterbox</h1>
-      <div class="messages"></div>
-      <form action="#" method="post"> 
-      <!-- # means form subitted to same page -->
+        <form action="#" method="post"> 
+        <!-- # means form subitted to same page -->
+        <label for="username">Username</label>
+        <input type="text" name="username"></input>
+        <label for="message">Message</label>
+        <textarea name="message" cols="70" rows="4">Enter your message.</textarea>
+        <input type="submit" name="submit" value="Submit Message">
       </form>
+      <div class="messages"></div>
     </div>
   </body>
 </html>
