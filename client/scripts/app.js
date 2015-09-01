@@ -57,11 +57,28 @@ var app = {
 
   refresh: function() {
     app.fetch();    
+  },
+
+  submit: function() {
+    var message = {};
+    //on click of submit button, create the message
+    message.username = placeholder; // get text input in username box
+    message.text = placeholder;   //get text in text box
+    //this.roomname = placeholder; // get text in roomname box
+    // send message
   }
 
 };
 
 app.init();
+
+// var chat = {
+//   username: 'me',
+//   text: 'You are not alone.',
+//   roomname: '4chan'
+// };
+
+//app.send();
 
 
 
