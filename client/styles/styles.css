@@ -84,8 +84,16 @@ form input[type=text] {
 }
 
 div {
-    background-color: gray;
-    margin: 5px;
-    height: 25px;
-    width: 450px;
+    background-color: #eee;
+    width: 500px;
+    margin: 20px auto;
 }
+
+#username, #room, #message, #submit {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
